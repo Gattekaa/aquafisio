@@ -285,7 +285,9 @@ nav .justify-content-center{
     border-bottom: 1px solid #bcb8b1;
 }
 
-
+.navbar{
+    border-bottom: 1px solid #bcb8b1;
+}
 
 .navbar-toggler{
     display: none;
@@ -326,6 +328,7 @@ nav .justify-content-center{
         width: 80px;
         height: 30px;
     }
+    
 
 }
 
@@ -350,15 +353,15 @@ nav .justify-content-center{
     .btncolmob{
         display: unset;
     }
+    .carousel-item{
+        margin-top: 45px!important;
+    }
 }
 @media (max-width: 767px) {
     .list-group-horizontal{
         flex-direction: column;
     }
     .hdbutton{
-        display: none;
-    }
-    .backtop{
         display: none;
     }
     .contato{
@@ -375,8 +378,15 @@ nav .justify-content-center{
     .mapasite{
         margin-top: 15px;
     }
+    .carousel-item{
+        margin-top: 45px!important;
+    }
 }
-
+@media (max-width: 428px){
+    .backtop{
+        bottom: 85px;
+    }
+}
 .lista {
     list-style-type: circle;
 }
@@ -467,4 +477,13 @@ nav .justify-content-center{
 }
 .pmusc{
     text-align: justify!important;
+}
+
+.navbar-toggler button{
+    display: flex;
+    justify-content: center;
+}
+
+.mapouter{
+    border-left: .5px outset #bcb8b13f;
 }
