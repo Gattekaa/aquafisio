@@ -10,14 +10,10 @@
     <link rel="icon" type="image/x-icon" href="./imagens/aquafisioico.png">
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a359a9c6d3.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous"
-        src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v14.0&appId=249060100654969&autoLogAppEvents=1"
-        nonce="3r6XkOoT"></script>
 
     <div class="container-fluid navbarcont">
         <nav class="navbar bg-light fixed-top">
@@ -27,7 +23,7 @@
                 <button class="navbar-toggler navbut" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa-solid fa-bars"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style="width: 17px;height:20px;"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
                     <ul class="nav justify-content-center navul">
@@ -76,7 +72,7 @@
             </div>
         </nav>
     </div>
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
@@ -86,24 +82,24 @@
                 aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-            <div class="carousel-item active">
-
+            <div class="carousel-item active" data-bs-interval="2000">
                 <div class="bc_carousel"></div>
                 <div class="bc_aquafisio"></div>
                 <img src="./imagens/aquafisio-slide.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-md-block fs hdbutton">
                     <h5>Conheça nossa academia</h5>
+                    <p style="font-weight:bold;">13 3466-9743</p>
                 </div>
             </div>
 
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="2000">
                 <div class="bc_carousel"></div>
                 <img src="./imagens/Slider-Piscinas-1.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-md-block fs">
                     <h5>Piscinas Aquecidas</h5>
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="2000">
                 <div class="bc_carousel"></div>
                 <img src="./imagens/Slider-Fit-Dance.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-md-block fs">
@@ -130,7 +126,9 @@
                 <p>CONHEÇA NOSSAS MODALIDADES:</p>
                 <button class="btn btn-primary btncolmob" type="button" data-bs-toggle="collapse"
                     data-bs-target="#modToggleExternalContent" aria-expanded="false"
-                    aria-controls="modToggleExternalContent"><i class="fa-solid fa-caret-down"></i></button>
+                    aria-controls="modToggleExternalContent">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" style="width: 10px;height:15px;fill:white;"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"/></svg>
+                </button>
             </div>
             <div class="collapse navbar-collapse listacollapse" id="modToggleExternalContent">
                 <ul class="list-group list-group-horizontal">
@@ -196,7 +194,7 @@
                     <p class="aweight">CONTATO</p>
                     <a class="acolor" href="tel:+551334669743">(13) 3466-9743</a>
                     <a class="acolor" href="mailto:contato@academiaaquafisio.com.br">contato@academiaaquafisio.com.br</a>
-                    <p>Praça Dr. Bernardino de Campos, 142 – Centro – São Vicente/SP</p>
+                    <p>Praça Dr. Bernardino de Campos, 142 </br>Centro – São Vicente/SP</p>
                     <p>facebook.com/<a class="aweight linkcolor" href="https://www.facebook.com/aquafisiofitness/">aquafisiofitness</a>
                     </p>
                     <p>instagram.com/<a class="aweight linkcolor"
@@ -222,7 +220,7 @@
 
             <div class="backtop">
                 <a href="#" class="back-top" title="Voltar ao topo">
-                    <i class="fa-solid fa-caret-right"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" style="fill:#a5a39f"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M118.6 105.4l128 127.1C252.9 239.6 256 247.8 256 255.1s-3.125 16.38-9.375 22.63l-128 127.1c-9.156 9.156-22.91 11.9-34.88 6.943S64 396.9 64 383.1V128c0-12.94 7.781-24.62 19.75-29.58S109.5 96.23 118.6 105.4z"/></svg>
                 </a>
             </div>
         </div>
