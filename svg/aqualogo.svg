@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="52" viewBox="0 0 250 52">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 100px;
+        fill: #48cae4;
+        font-family: Poppins;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: #fb8500;
+      }
+    </style>
+  </defs>
+  <text id="AquaFisio" class="cls-1" transform="translate(3.764 39.478) scale(0.474)">Aqua<tspan class="cls-2">Fisio</tspan></text>
+</svg>
